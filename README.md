@@ -34,7 +34,7 @@ Follow these steps to set up the project on your local machine:
 1. **Clone the repository**
    ```sh
       git clone https://github.com/IbnuJabir/fullStack_chatApp.git
-   cd fullStack_chatApp
+      cd fullStack_chatApp
       ```
 
 2. **Install dependencies**
