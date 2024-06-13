@@ -9,7 +9,6 @@ Fullstack-Desktop-ChatApp is a full-fledged desktop chat application built using
 - **User Authentication**: Sign up and log in using Firebase Authentication.
 - **Real-time Messaging**: Send and receive messages instantly.
 - **User Presence**: Display online/offline status of users.
-- **Responsive Design**: Works well on both desktop and mobile devices.
 - **Persistent Chat History**: Store and retrieve chat history using Firebase Firestore.
 - **Profile Management**: Users can update their profile information.
 - **Notifications**: Real-time notifications for new messages.
