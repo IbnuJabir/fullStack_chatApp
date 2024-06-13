@@ -6,18 +6,19 @@ Fullstack-Desktop-ChatApp is a full-fledged desktop chat application built using
 
 ## Features
 
-- User Authentication: Sign up and log in using Firebase Authentication.
-- Real-time Messaging: Send and receive messages instantly.
-- User Presence: Display online/offline status of users.
-- Persistent Chat History: Store and retrieve chat history using Firebase Firestore.
-- Profile Management: Users can update their profile information.
-- Notifications: Real-time notifications for new messages.
+- **User Authentication**: Sign up and log in using Firebase Authentication.
+- **Real-time Messaging**: Send and receive messages instantly.
+- **User Presence**: Display online/offline status of users.
+- **Responsive Design**: Works well on both desktop and mobile devices.
+- **Persistent Chat History**: Store and retrieve chat history using Firebase Firestore.
+- **Profile Management**: Users can update their profile information.
+- **Notifications**: Real-time notifications for new messages.
 
 ## Technologies Used
 
-- Frontend: React, CSS, Material-UI
-- Backend: Firebase Firestore, Firebase Authentication
-- Deployment: Electron (for desktop app)
+- **Frontend**: React, CSS, Material-UI
+- **Backend**: Firebase Firestore, Firebase Authentication
+- **Deployment**: Electron (for desktop app)
 
 ## Prerequisites
 
@@ -31,26 +32,31 @@ Before you begin, ensure you have met the following requirements:
 
 Follow these steps to set up the project on your local machine:
 
-1. Clone the repository
+1. **Clone the repository**
+   ```sh
       git clone https://github.com/IbnuJabir/fullStack_chatApp.git
    cd fullStack_chatApp
-   
+      ```
 
-2. Install dependencies
-      npm install
-   
+2. **Install dependencies**
+   ```sh
+   npm install
+   ```
 
 3. Set up Firebase
    - Go to your Firebase console and create a new project.
    - Enable Firestore and Authentication (Email/Password provider).
    - Copy your Firebase configuration and replace the contents of src/firebaseConfig.js with your configuration details.
 
-4. Run the application
-      npm start
+4. **Run the application**
+   ```sh
+   npm start
+   ```
    
-
-5. Package the application (for desktop)
-      npm run electron:build
+5. **Package the application (for desktop)**
+   ```sh
+   npm run electron:build
+   ```
    
 
 ## Configuration
