@@ -57,6 +57,7 @@ Follow these steps to set up the project on your local machine:
 
 In the src/firebaseConfig.js file, replace the placeholders with your actual Firebase project configuration:
 
+```javascript
 const firebaseConfig = {
   apiKey: "your-api-key",
   authDomain: "your-auth-domain",
@@ -65,6 +66,9 @@ const firebaseConfig = {
   messagingSenderId: "your-messaging-sender-id",
   appId: "your-app-id"
 };
+
+export default firebaseConfig;
+```
 
 export default firebaseConfig;
 
